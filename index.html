@@ -2,16 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    @media (max-width: 600px) {
+      .facet_sidebar {
+        display: none;
+      }
+    }
+    </style>
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <div id="main-doc">
+    <main id="main-doc">
 
-      <nav id="navbar"></nav>
+      <nav id="navbar">
+        <header>
+          <h1>Python documentation.</h1>
+        </header>
+        <img src="pictures/1200px-Python-logo-notext.svg.png" alt="Python logo" width="100px">
+        <ul>
+          <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#Types" class="nav-link">Types</a></li>
+          <li><a href="#Variables" class="nav-link">Variables</a></li>
+          <li><a href="#Loops" class="nav-link">Loops</a></li>
+          <li><a href="#Methods" class="nav-link">Methods</a></li>
+        </ul>
+      </nav>
 
       <section class="main-section" id="Introduction">
         <header>Introduction</header>
@@ -68,7 +88,7 @@
         </ul>
       </section>
 
-    </div>
+    </main>
 
 
     <!--
